@@ -1,17 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="com.qainfotech.maven_project.TatocTest" duration-ms="5599" started-at="2018-06-19T19:53:18Z" finished-at="2018-06-19T19:53:24Z">
+  <suite name="com.qainfotech.maven_project.TatocTest" duration-ms="14071" started-at="2018-06-21T17:35:45Z" finished-at="2018-06-21T17:36:00Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="5599" started-at="2018-06-19T19:53:18Z" finished-at="2018-06-19T19:53:24Z">
+    <test name="Command line test" duration-ms="14071" started-at="2018-06-21T17:35:45Z" finished-at="2018-06-21T17:36:00Z">
       <class name="com.qainfotech.maven_project.TatocTest">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.qainfotech.maven_project.TatocTest@1a407d53]" name="launchBrowser" is-config="true" duration-ms="4815" started-at="2018-06-20T01:23:18Z" finished-at="2018-06-20T01:23:23Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.qainfotech.maven_project.TatocTest@60f82f98]" name="launchBrowser" is-config="true" duration-ms="6511" started-at="2018-06-21T23:05:45Z" finished-at="2018-06-21T23:05:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qainfotech.maven_project.TatocTest@1a407d53]" name="closeBrowser" is-config="true" duration-ms="777" started-at="2018-06-20T01:23:23Z" finished-at="2018-06-20T01:23:24Z">
+        <test-method status="PASS" signature="verifyBasicCourseSelection()[pri:0, instance:com.qainfotech.maven_project.TatocTest@60f82f98]" name="verifyBasicCourseSelection" duration-ms="349" started-at="2018-06-21T23:05:52Z" finished-at="2018-06-21T23:05:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBasicCourseSelection -->
+        <test-method status="PASS" signature="verifyGreenBoxSelected()[pri:0, instance:com.qainfotech.maven_project.TatocTest@60f82f98]" name="verifyGreenBoxSelected" duration-ms="426" started-at="2018-06-21T23:05:52Z" finished-at="2018-06-21T23:05:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGreenBoxSelected -->
+        <test-method status="PASS" signature="verifyBoxColorSame()[pri:0, instance:com.qainfotech.maven_project.TatocTest@60f82f98]" name="verifyBoxColorSame" duration-ms="1004" started-at="2018-06-21T23:05:53Z" finished-at="2018-06-21T23:05:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBoxColorSame -->
+        <test-method status="PASS" signature="verifyDragPerformed()[pri:0, instance:com.qainfotech.maven_project.TatocTest@60f82f98]" name="verifyDragPerformed" duration-ms="633" started-at="2018-06-21T23:05:54Z" finished-at="2018-06-21T23:05:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDragPerformed -->
+        <test-method status="PASS" signature="verifyTextEnteredInPopupWindow()[pri:0, instance:com.qainfotech.maven_project.TatocTest@60f82f98]" name="verifyTextEnteredInPopupWindow" duration-ms="1817" started-at="2018-06-21T23:05:54Z" finished-at="2018-06-21T23:05:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTextEnteredInPopupWindow -->
+        <test-method status="PASS" signature="verifyCookieAdded()[pri:0, instance:com.qainfotech.maven_project.TatocTest@60f82f98]" name="verifyCookieAdded" duration-ms="411" started-at="2018-06-21T23:05:56Z" finished-at="2018-06-21T23:05:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCookieAdded -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qainfotech.maven_project.TatocTest@60f82f98]" name="closeBrowser" is-config="true" duration-ms="2901" started-at="2018-06-21T23:05:57Z" finished-at="2018-06-21T23:06:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

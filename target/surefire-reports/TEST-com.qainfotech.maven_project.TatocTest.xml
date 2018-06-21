@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="0" failures="0" name="com.qainfotech.maven_project.TatocTest" time="0" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="com.qainfotech.maven_project.TatocTest" time="4.641" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\bin"/>
     <property name="java.vm.version" value="25.152-b16"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\DIGVIJAY SINGH\eclipse-workspace\TatocAutomation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\DIGVIJAY SINGH\eclipse-workspace\Maven_Automation_Training"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\DIGVIJAY SINGH\eclipse-workspace\TatocAutomation"/>
+    <property name="user.dir" value="C:\Users\DIGVIJAY SINGH\eclipse-workspace\Maven_Automation_Training"/>
     <property name="java.runtime.version" value="1.8.0_152-b16"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_152\jre\lib\endorsed"/>
@@ -65,4 +65,10 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
+  <testcase classname="com.qainfotech.maven_project.TatocTest" name="verifyBasicCourseSelection" time="0.351"/>
+  <testcase classname="com.qainfotech.maven_project.TatocTest" name="verifyGreenBoxSelected" time="0.428"/>
+  <testcase classname="com.qainfotech.maven_project.TatocTest" name="verifyBoxColorSame" time="1"/>
+  <testcase classname="com.qainfotech.maven_project.TatocTest" name="verifyDragPerformed" time="0.633"/>
+  <testcase classname="com.qainfotech.maven_project.TatocTest" name="verifyTextEnteredInPopupWindow" time="1.818"/>
+  <testcase classname="com.qainfotech.maven_project.TatocTest" name="verifyCookieAdded" time="0.411"/>
 </testsuite>

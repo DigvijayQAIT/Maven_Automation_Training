@@ -1,1 +1,6 @@
-com\qainfotech\maven_project\Tatoc.class
+com\qainfotech\maven\Tatoc\course\CookieHandling.class
+com\qainfotech\maven\Tatoc\course\BasicCourse.class
+com\qainfotech\maven\Tatoc\course\FrameDungeon.class
+com\qainfotech\maven\Tatoc\course\DragAround.class
+com\qainfotech\maven\Tatoc\course\GridGate.class
+com\qainfotech\maven\Tatoc\course\PopupWindows.class
