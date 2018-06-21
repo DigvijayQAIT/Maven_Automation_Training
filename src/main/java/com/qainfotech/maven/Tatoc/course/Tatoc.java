@@ -1,4 +1,4 @@
-package com.qainfotech.maven_project;
+package com.qainfotech.maven.Tatoc.course;
 
 import java.util.ArrayList;
 
